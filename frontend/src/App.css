@@ -1,0 +1,16 @@
+.app {
+  padding: 1rem;
+  background-color: #eaeaea;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  
+}
+@media screen and (max-width: 768px){
+  .card__container {
+    grid-template-columns: 1fr;
+  }
+}
